@@ -1,0 +1,26 @@
+/* OFFER CARDS*/
+
+.offers{
+padding:60px;
+text-align:center;
+}
+
+.offer-container{
+display:flex;
+justify-content:space-evenly;
+margin-top:40px;
+}
+
+.offer-card{
+width:280px;
+padding:40px;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+color:white;
+border-radius:20px;
+transition:.4s;
+}
+
+.offer-card:hover{
+transform:translateY(-12px);
+box-shadow:0 10px 25px gray;
+}

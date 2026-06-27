@@ -1,0 +1,28 @@
+
+.categories{
+    padding:60px;
+    text-align:center;
+}
+
+.category-container{
+    display:flex;
+    justify-content:space-evenly;
+     margin-top:40px;
+}
+
+.category-card{
+    width:180px;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px lightgray;
+    transition:.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-10px);
+}
+
+.category-card{
+    font-size:20px;
+}

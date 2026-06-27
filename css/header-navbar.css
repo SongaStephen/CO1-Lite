@@ -1,0 +1,64 @@
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+    box-shadow:0 1px 1px lightgray;
+    z-index:1000;
+}
+
+/*  NAVIGATION*/
+
+nav{
+    position:fixed;
+    top:75px;      /* Header height */
+    left:0;
+    width:100%;
+    background:white;
+    padding:15px;
+    z-index:999;
+    box-shadow:0 1px 1px lightgray;
+}
+
+
+.logo h2{
+    color: #0077ff;
+}
+.search-box input{
+    width: 350px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+}
+.account a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.account a:hover{
+    color: #0077ff;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: #0077ff;
+}

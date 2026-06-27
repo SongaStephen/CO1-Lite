@@ -1,0 +1,21 @@
+.features{
+    display: flex;
+    justify-content:space-evenly;
+    padding:50px;
+    background: white;
+}
+.feature-card{
+    width:230px;
+    padding:30px;
+    text-align:center;
+    background:#fafafa;
+    border-radius:15px;
+    box-shadow:0 5px 15px lightgray;
+    transition:.4s;
+}
+.feature-card:hover{
+    transform:translateY(-10px);
+}
+.feature-card h3{
+margin:15px 0;
+}
