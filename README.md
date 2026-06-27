@@ -1,1 +1,1 @@
-css and images
+This is Light theme version
